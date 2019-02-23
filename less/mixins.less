@@ -1,0 +1,18 @@
+
+.flex-centered  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-creator (@width, @height) {
+    width: @width;
+    height: @height;
+    margin-top: 10px;
+    border: 1px solid black;
+    .flex-centered;
+
+}
+.btn {
+.button-creator(180px, 40px);
+}
+

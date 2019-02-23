@@ -1,4 +1,3 @@
-/* Your Code Goes Here */
 .flex-centered {
   display: flex;
   justify-content: center;
@@ -296,34 +295,16 @@ table {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-.mainbody .insidefirsts {
+.mainbody .buttons {
   display: flex;
-  flex-direction: column;
-  width: 45%;
-}
-.mainbody .insidefirsts h3 {
-  font-weight: bold;
-  font-size: 28px;
-  color: #222222;
-}
-.mainbody .insidefirsts p {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-.mainbody .space {
-  width: 10%;
-}
-.mainbody .firstimg {
-  width: 45%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .mainbody .secondsection {
   display: flex;
   flex-direction: row;
   padding-top: 35px;
   padding-bottom: 35px;
-}
-.mainbody .secondimg {
-  width: 45%;
 }
 .mainbody .insideseconds {
   display: flex;
@@ -334,98 +315,15 @@ table {
   font-weight: bold;
   font-size: 28px;
   color: #222222;
+  padding-bottom: 10px;
 }
 .mainbody .insideseconds p {
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.mainbody .thirdsection h3 {
-  font-weight: bold;
-  font-size: 28px;
-  color: #222222;
-  padding-bottom: 30px;
-  padding-top: 40px;
+.mainbody .space {
+  width: 10%;
 }
-.mainbody .insidethirds {
-  position: relative;
-}
-.mainbody .thirdimg {
-  width: 100%;
-}
-.mainbody .insidethirds h2 {
-  position: absolute;
-  bottom: -25px;
-  right: 0;
-  background-color: #D8D8D8;
-  padding: 35px 55px;
-  border: 1px solid white;
-  font-size: 28px;
-  color: #222222;
-}
-.mainbody .insidethirds2 {
-  padding-top: 55px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.mainbody .insidethirds2 p {
-  padding-top: 15px;
-  padding-bottom: 5px;
-  width: 60%;
-}
-.mainbody .insidefourths {
-  position: relative;
-  padding-top: 35px;
-}
-.mainbody .fourthimg {
-  width: 100%;
-}
-.mainbody .insidefourths h2 {
-  position: absolute;
-  bottom: -25px;
-  left: 0;
-  background-color: #D8D8D8;
-  padding: 35px 55px;
-  border: 1px solid white;
-  font-size: 28px;
-  color: #222222;
-}
-.mainbody .insidefourths2 {
-  padding-top: 55px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.mainbody .insidefourths2 p {
-  padding-top: 15px;
-  padding-bottom: 5px;
-  width: 60%;
-}
-.mainbody .insidefifths {
-  position: relative;
-  padding-top: 35px;
-}
-.mainbody .fifthimg {
-  width: 100%;
-}
-.mainbody .insidefifths h2 {
-  position: absolute;
-  bottom: -25px;
-  right: 0;
-  background-color: #D8D8D8;
-  padding: 35px 55px;
-  border: 1px solid white;
-  font-size: 28px;
-  color: #222222;
-}
-.mainbody .insidefifths2 {
-  padding-top: 55px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.mainbody .insidefifths2 p {
-  padding-top: 15px;
-  padding-bottom: 5px;
-  width: 60%;
+.mainbody .serviceimg {
+  width: 45%;
 }
