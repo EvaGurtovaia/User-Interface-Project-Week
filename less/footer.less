@@ -6,6 +6,11 @@
     width: 100%;
     margin-top: 65px;
     background-color:  #828282;
+    @media @mobile {
+        flex-direction: column;
+        flex-wrap:  nowrap;
+
+    }
 
        .mainfootercontainer {
         max-width: 880px;
@@ -14,30 +19,50 @@
         display: flex;
         flex-wrap: wrap;
         padding-top: 35px;
+        @media @mobile {
+            flex-direction: column;
+            flex-wrap:  nowrap;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
         }
     
              .footercontainer {
              display: flex;
        	     flex-direction: column;
              width: 40%;
+             @media @mobile {
+               width: 100%;
+             }
+             
             }
             .footercontainer h5 {
                 font-weight: @foot-head-font-weight;
                 font-size: @foot-head-font-size;
                 line-height: @foot-head-line-height;
                 color: @foot-head-color;  
+                @media @mobile {
+                    width: 100%;
+                  }
             }
             .footercontainer p {
                 font-weight: @foot-text-font-weight;
                 font-size: @foot-text-font-size;
                 color: @foot-text-color;
                 line-height: @foot-text-line-height;
+                @media @mobile {
+                    width: 100%;
+                  }
             }
             .footercontainer form {
                 margin-top: 5px;
             }
             .footercontainer .mail {
                 width: 68%;
+                @media @mobile {
+                    width: 100%;
+                  }
             }
             .ouroffice {
             display: flex;
@@ -46,6 +71,9 @@
             align-content: center;
             width: 20%;
             margin-top: 10px;
+            @media @mobile {
+                width: 100%;
+              }
            }
            .ouroffice .footerhead {  
             font-weight: @foot-head-font-weight;
@@ -68,5 +96,11 @@
             font-size: @foot-text-font-size;
             color: @foot-text-color;
             line-height:  @foot-text-line-height;
+            @media @mobile {
+                text-align: start;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
     }
 }
