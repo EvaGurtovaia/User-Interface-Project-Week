@@ -447,7 +447,7 @@ table {
 @media (max-width: 500px) {
   .mainbody .insidethirds h2 {
     bottom: -65px;
-    right: 22.5px;
+    right: 43px;
     padding: 35px 80px;
   }
 }
@@ -470,7 +470,9 @@ table {
 }
 @media (max-width: 500px) {
   .mainbody .insidethirds2 p {
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .mainbody .insidefourths {
@@ -493,7 +495,7 @@ table {
 @media (max-width: 500px) {
   .mainbody .insidefourths h2 {
     bottom: -65px;
-    left: 22.5px;
+    left: 50px;
     padding: 35px 80px;
   }
 }
@@ -510,7 +512,10 @@ table {
 }
 @media (max-width: 500px) {
   .mainbody .insidefourths2 p {
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
   }
 }
 .mainbody .insidefifths {
@@ -530,6 +535,13 @@ table {
   font-size: 28px;
   color: #222222;
 }
+@media (max-width: 500px) {
+  .mainbody .insidefifths h2 {
+    bottom: -65px;
+    right: 40px;
+    padding: 35px 80px;
+  }
+}
 .mainbody .insidefifths2 {
   padding-top: 55px;
   display: flex;
@@ -540,4 +552,12 @@ table {
   padding-top: 15px;
   padding-bottom: 5px;
   width: 60%;
+}
+@media (max-width: 500px) {
+  .mainbody .insidefifths2 p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+  }
 }
