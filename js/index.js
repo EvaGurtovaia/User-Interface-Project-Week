@@ -2,8 +2,9 @@
 
 const toggleMenu = () => {
     menu.classList.toggle('menu--open');
+    menuButtons.forEach(button => button.classList.toggle('hidden'));
   }
   
   const menu = document.querySelector ('.menu');
-  const menuButton = document.querySelector('.menu-button');
-  menuButton.addEventListener('click', toggleMenu);
+  const menuButtons = document.querySelectorAll('.menu-button');
+  menuButtons.forEach(button =>  button.addEventListener('click', toggleMenu));
