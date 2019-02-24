@@ -261,6 +261,9 @@ table {
 @media (max-width: 500px) {
   .footer .footercontainer h5 {
     width: 100%;
+    font-size: 28px;
+    padding-bottom: 10px;
+    text-align: justify;
   }
 }
 .footer .footercontainer p {
@@ -272,6 +275,10 @@ table {
 @media (max-width: 500px) {
   .footer .footercontainer p {
     width: 100%;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: justify;
   }
 }
 .footer .footercontainer form {
@@ -361,35 +368,52 @@ table {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-.mainbody .buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.mainbody .secondsection {
-  display: flex;
-  flex-direction: row;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-.mainbody .insideseconds {
+.mainbody .tabs {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
 }
-.mainbody .insideseconds h3 {
+.mainbody .tabs .servicesTabs {
+  display: flex;
+  justify-content: space-around;
+}
+.mainbody .tabs .servicesTabs .tabs-link {
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  font-size: 18px;
   font-weight: bold;
-  font-size: 28px;
-  color: #222222;
+  padding: 10px;
+  width: 185px;
+}
+.mainbody .tabs .servicesTabs .tabs-link:hover {
+  background-color: #2fbff0;
+  color: white;
+}
+.mainbody .tabs .servicesTabs .tabs-link-selected {
+  background-color: #2fbff0;
+}
+.mainbody .tabs .tabs-item {
+  display: none;
+}
+.mainbody .tabs .tabs-item-selected {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.mainbody .tabs .tabs-item-selected .textContent {
+  width: 45%;
+  line-height: 24px;
+}
+.mainbody .tabs .tabs-item-selected .textContent h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.mainbody .tabs .tabs-item-selected .textContent p {
   padding-bottom: 10px;
 }
-.mainbody .insideseconds p {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-.mainbody .space {
-  width: 10%;
-}
-.mainbody .serviceimg {
+.mainbody .tabs .tabs-item-selected img {
   width: 45%;
 }

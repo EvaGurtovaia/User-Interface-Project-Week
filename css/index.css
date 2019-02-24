@@ -262,6 +262,9 @@ table {
 @media (max-width: 500px) {
   .footer .footercontainer h5 {
     width: 100%;
+    font-size: 28px;
+    padding-bottom: 10px;
+    text-align: justify;
   }
 }
 .footer .footercontainer p {
@@ -273,6 +276,10 @@ table {
 @media (max-width: 500px) {
   .footer .footercontainer p {
     width: 100%;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: justify;
   }
 }
 .footer .footercontainer form {

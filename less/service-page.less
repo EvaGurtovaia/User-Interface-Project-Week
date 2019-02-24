@@ -36,39 +36,54 @@
         padding-bottom: 35px;
     
     }
-    .buttons {
-        display:flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .secondsection {
-        display:flex;
-        flex-direction: row;
-        padding-top: 35px;
-        padding-bottom: 35px;
-    
-    }
-        .insideseconds {
-         display: flex;
-         flex-direction: column;
-         width: 45%;
-         
-    }   
-             .insideseconds h3 {
-                font-weight: @sub-head-font-weight;
-                font-size: @sub-head-font-size;
-                color: @sub-head-color;
-                padding-bottom: 10px;
-             }
-             .insideseconds p {
-                 padding-bottom: 10px;
-                 padding-top: 10px;
-             }
-            
-        .space{
-            width: 10%;
+ 
+ .tabs {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    .servicesTabs {
+        display: flex;
+        justify-content: space-around;
+        .tabs-link {
+            background-color: #FFFFFF;
+            border: 1px solid black;
+            font-size: 18px;
+            font-weight:   @sub-head-font-weight;
+            padding: 10px;
+            width: 185px;
+            &:hover {
+                background-color:rgb(47, 191, 240);
+                color: white;
+            }
         }
-        .serviceimg {
+        .tabs-link-selected {
+            background-color: rgb(47, 191, 240);
+        }
+    }
+    .tabs-item {
+        display: none;
+    }
+    .tabs-item-selected {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        .textContent {
+            width: 45%;
+            line-height: 24px;
+            h2 {
+                font-size: 1.6rem;
+                font-weight: bold;
+                padding-bottom: 15px;
+            }
+            p {
+                padding-bottom: 10px;
+            }
+        }
+        img {
             width: 45%;
         }
+    }
+ }
 }
