@@ -211,6 +211,9 @@ table {
 .main-header .menu--open {
   display: block;
 }
+.main-header li:hover {
+  color: #2fbff0;
+}
 .footer {
   display: flex;
   flex-wrap: wrap;

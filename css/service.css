@@ -210,6 +210,9 @@ table {
 .main-header .menu--open {
   display: block;
 }
+.main-header li:hover {
+  color: #2fbff0;
+}
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -407,13 +410,17 @@ table {
   line-height: 24px;
 }
 .mainbody .tabs .tabs-item-selected .textContent h2 {
-  font-size: 1.6rem;
+  font-size: 30px;
   font-weight: bold;
   padding-bottom: 15px;
+}
+.mainbody .tabs .tabs-item-selected .textContent .insideTextContent {
+  padding-top: 25px;
 }
 .mainbody .tabs .tabs-item-selected .textContent p {
   padding-bottom: 10px;
 }
 .mainbody .tabs .tabs-item-selected img {
+  padding-top: 35px;
   width: 45%;
 }
